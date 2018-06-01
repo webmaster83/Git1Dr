@@ -3,3 +3,35 @@
 article, aside, details, figcaption, figure, footer, geader, hgroup, menu, nav, section {
 	display: block;
 }
+body{
+	margin: 0;
+	font-family: tahoma, Geneva, sans-serif;
+}
+
+#conteneur {
+	width: 960px;
+	margin: 0 auto;
+	padding: 0 10px;
+}
+/*h1 aligné avec h2 vertical align*/
+h1{ display: inline-block; vertical-align: middle;}
+h2{ display: inline-block; font-size: 12px; color: #3c76fa;}
+section {padding: 10px;}
+.ombre{
+	box-shadow: 0 0 10px #999;
+}
+section article{
+	margin-bottom: 20px;
+}
+section article h1 {
+	font-size: 16px; margin: 0 0 10 0;
+}
+section article p {
+	margin: 0px;
+	font-size: 16px;
+}
+section article footer {
+	font-style: italic;
+	font-size: 11px;
+	margin-top: 10px; 
+}
