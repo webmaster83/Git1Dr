@@ -6,16 +6,17 @@ article, aside, details, figcaption, figure, footer, geader, hgroup, menu, nav, 
 body{
 	margin: 0;
 	font-family: tahoma, Geneva, sans-serif;
-	background:url(moi.png);
+	background:url(moi.png) no-repeat top right fixed;
+	background-size: contain;
+	
 }
-
 #conteneur {
 	width: 960px;
 	margin: 0 auto;
 	padding: 0 10px;
 }
 /*h1 aligné ajout vertical align*/
-h1{ display: inline-block; vertical-align: middle;}
+h1{ display: inline-block; vertical-align: middle; margin: 0px;}
 h2{ display: inline-block; font-size: 12px; color: #3c76fa;}
 section {padding: 10px;}
 .ombre{
@@ -35,4 +36,7 @@ section article footer {
 	font-style: italic;
 	font-size: 11px;
 	margin-top: 10px; 
+}
+#slider {
+	/*opacity: 0.8;*/
 }
