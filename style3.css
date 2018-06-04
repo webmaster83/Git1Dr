@@ -3,6 +3,10 @@
 section .nousVous p {
 	font-size: 11px;
 }
+section .nousVous h1 {
+	text-transform: uppercase;
+	color: #2C9C16;
+}
 section .nousVous{
 	display: inline-block;
 	vertical-align: top;
@@ -13,7 +17,7 @@ section .nousVous{
 section .contenu{
 	display: inline-block;
 	vertical-align: top;
-	width: 478px;
+	width: 475px;
 	padding: 5px;
 	box-shadow: 0 0 10px #999;
 	
@@ -23,5 +27,6 @@ section .contenu{
 	vertical-align: top;
 	padding: 0px;
 	box-shadow: 0 0 10px #999;
+	float: right;
 	
 } 
