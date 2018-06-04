@@ -1,0 +1,24 @@
+@charset "utf-8";
+/*toutes les balises à 0 px avec étoile*/
+*{margin: 0px;}
+#form{
+	background-color:white;/*transparent*/
+	/*width: 600px;*/
+}
+#form p {
+	padding-bottom: 10px;
+}
+#form #administration label {
+	/*float: left;
+	width: 200px;
+	text-align: right;
+	padding-right: 50px;*/
+	
+}
+#form #administration imput {
+	/*width: 200px;*/
+}
+label{
+	margin: 10px;
+}
+fieldset {margin-bottom: 50px;}

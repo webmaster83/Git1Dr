@@ -8,6 +8,7 @@
 <link href="style3.css" rel="stylesheet" type="text/css">
 <link href="stylemenu.css" rel="stylesheet" type="text/css">
 <link href="stylechat.css" rel="stylesheet" type="text/css">
+<link href="formestyle.css" rel="stylesheet" type="text/css">
 </head>
 
 <body>
@@ -36,11 +37,9 @@
       </li>
       <li><a href="#">menu5</a></li>
     </ul>
-  </nav>  
-	
+  </nav>
   <div id="slider"><img src="slider/img2.jpg" width="960" height="540" alt="slide 1 image"/> </div>
   <section class="ombre">
-	
     <section class='nousVous ombre'>
       <h1>De nous à vous</h1>
       <div class="RecOmbre">
@@ -74,6 +73,53 @@
       </article>
     </section>
     <aside class="pub"><span style="vertical-align: top; text-transform: uppercase; color:#2C9C16;font-weight: bold;">Pub</span> <img src="Pub-php.png" alt="pub"/></aside>
+    <form id="form" name="formulaire1" method="post" action="">
+      <fieldset id="administration">
+        <legend>Administration</legend>
+        <p>Pour votre...</p>
+        <label for="nomid">Nom:</label>
+        <input type="text" name="nom">
+        <label for="prenomid">Prenom:</label>
+        <input type="text" name="prenom">
+        <label for="adresseid">Adresse:</label>
+        <input type="text" name="adresse">
+        <label for="mailid">Mail:</label>
+        <input type="email" name="email">
+      </fieldset>
+      <fieldset id="visite">
+        <legend>Visite</legend>
+        <p>Vous visitez notre site pour la première fois </p>
+        <label>
+          <input type="radio" name="premierefois">
+          Oui</label>
+        <label>
+          <input type="radio" name="toujours">
+          Non</label>
+      </fieldset>
+      <fieldset id="materiel">
+        <legend>Matériel informatique </legend>
+        <p>Quel matériel informatique avez-vous ?</p>
+        <p>
+          <label>
+            <input type="checkbox" name="matériel" value="valeur1" id="mateacuteriel_0">
+            Mac</label>
+          <br>
+          <label>
+            <input type="checkbox" name="matériel" value="valeur2" id="mateacuteriel_1">
+            PC</label>
+          <br>
+        </p>
+        <p>En êtes vous satisfait ? </p>
+        <p><label for="satisfaction"></label>
+        <select id="satifaction"  name="satisfaction">
+          <option>Très satisfait</option>
+          <option>Satisfait</option>
+          <option>Dubitatif</option>
+          <option>Pas content</option>
+        </select></p>
+      </fieldset>
+		<input type="submit">
+    </form>
   </section>
   <footer>&copy; Amine - Webmaster</footer>
 </div>
