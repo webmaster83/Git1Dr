@@ -1,0 +1,12 @@
+@charset "utf-8";
+/* CSS Document */
+
+section article .flotDroite{
+	float: right;
+	margin-left: 5px;
+}
+section article .flotGauche{
+	float: left;
+	margin-right: 5px;
+	clear: both;
+}
