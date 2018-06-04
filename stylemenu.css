@@ -21,6 +21,18 @@ ul a {
 a:hover {
 	background: orange;
 }
-li {
+nav > ul > li {
 	float: left;
+	position: relative;
 }
+/*le sous menu*/
+nav li ul {
+	display: none;/* on voit rien mais le menu est présent en absolute*/
+	position: absolute;
+	top: 30px;
+	left: 0px;
+	width: 100px;
+	z-index: 100;
+}
+/*déroulement du menu au moment du hover */
+nav ul > li:hover ul { display: block;}
