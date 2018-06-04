@@ -1,0 +1,27 @@
+@charset "utf-8";
+/* CSS Document */
+section .nousVous p {
+	font-size: 11px;
+}
+section .nousVous{
+	display: inline-block;
+	vertical-align: top;
+	width: 200px;
+	padding: 5px;
+	
+}
+section .contenu{
+	display: inline-block;
+	vertical-align: top;
+	width: 478px;
+	padding: 5px;
+	box-shadow: 0 0 10px #999;
+	
+}
+.pub {
+	display: inline-block;
+	vertical-align: top;
+	padding: 0px;
+	box-shadow: 0 0 10px #999;
+	
+} 

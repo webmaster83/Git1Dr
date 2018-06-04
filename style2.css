@@ -8,5 +8,8 @@ section article .flotDroite{
 section article .flotGauche{
 	float: left;
 	margin-right: 5px;
+	
+}
+.effetfloat{
 	clear: both;
 }
