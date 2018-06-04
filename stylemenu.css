@@ -1,0 +1,26 @@
+@charset "utf-8";
+/* CSS Document */
+
+ul{
+	margin: 0px;
+	padding: 0px;
+	list-style-type: none;	
+}
+ul a {
+	width: 192px;
+	height: 30px;
+	background: #838383;
+	color: #00fb2f;
+	text-decoration: none;
+	display: block;
+	font-size: 15px;
+	line-height: 30px;
+	text-align: center;	
+	margin-bottom: -5px;
+}
+a:hover {
+	background: orange;
+}
+li {
+	float: left;
+}
