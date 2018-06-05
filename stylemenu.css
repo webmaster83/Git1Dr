@@ -17,6 +17,7 @@ ul a {
 	line-height: 30px;
 	text-align: center;	
 	margin-bottom: -5px;
+	transition: 1.5s all;
 }
 a:hover {
 	background: orange;
